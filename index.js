@@ -8,7 +8,7 @@ app.use(express.json()) //crucial for the post request perhaps
 app.use(cors())
 app.use(express.static('dist'))
 
-const baseURL = 'https://phonebookbackend-yyys.onrender.com/api/persons'
+const baseURL = '/api/persons'
 
 //morgan middleware:
 const morgan = require('morgan')
